@@ -6,7 +6,7 @@
 
 
 int add ();
-int subtract ();
+int sub ();
 int multiply ();
 int divide ();
 #endif
