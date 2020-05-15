@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "collab.h"
 
-main() {
+int main() {
   int a = 10;
   int b = 5;
   int c = 25;
@@ -9,4 +9,5 @@ main() {
   printf ("Subtract: %d\n",sub(a,b));
   printf ("Multiply: %d\n",multiply(a,b));
   printf ("Divide: %d\n",divide(a,b));
+  return 0;
  }
